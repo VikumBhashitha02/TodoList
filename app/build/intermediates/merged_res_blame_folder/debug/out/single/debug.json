@@ -1,0 +1,222 @@
+[
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/drawable-night_ic_baseline_category_24.xml.flat",
+        "source": "com.example.todolist.app-main-60:/drawable-night/ic_baseline_category_24.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/layout_category_dialog.xml.flat",
+        "source": "com.example.todolist.app-main-60:/layout/category_dialog.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.todolist.app-main-60:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/layout_activity_main.xml.flat",
+        "source": "com.example.todolist.app-main-60:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/drawable_ic_baseline_priority_high_24.xml.flat",
+        "source": "com.example.todolist.app-main-60:/drawable/ic_baseline_priority_high_24.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/drawable_ic_baseline_add_24.xml.flat",
+        "source": "com.example.todolist.app-main-60:/drawable/ic_baseline_add_24.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/navigation_nav_graph.xml.flat",
+        "source": "com.example.todolist.app-main-60:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/layout_fragment_task_category.xml.flat",
+        "source": "com.example.todolist.app-main-60:/layout/fragment_task_category.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/anim_slide_recview.xml.flat",
+        "source": "com.example.todolist.app-main-60:/anim/slide_recview.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/drawable_ic_baseline_keyboard_arrow_up_24.xml.flat",
+        "source": "com.example.todolist.app-main-60:/drawable/ic_baseline_keyboard_arrow_up_24.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/drawable-night_ic_baseline_keyboard_arrow_up_24.xml.flat",
+        "source": "com.example.todolist.app-main-60:/drawable-night/ic_baseline_keyboard_arrow_up_24.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.todolist.app-main-60:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/anim_slide_down.xml.flat",
+        "source": "com.example.todolist.app-main-60:/anim/slide_down.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/layout_nav_header_main.xml.flat",
+        "source": "com.example.todolist.app-main-60:/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/drawable_notification_app_icon.png.flat",
+        "source": "com.example.todolist.app-main-60:/drawable/notification_app_icon.png"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/raw_noresultanim.json.flat",
+        "source": "com.example.todolist.app-main-60:/raw/noresultanim.json"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/anim_layout_animation.xml.flat",
+        "source": "com.example.todolist.app-main-60:/anim/layout_animation.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/layout_fragment_new_task.xml.flat",
+        "source": "com.example.todolist.app-main-60:/layout/fragment_new_task.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.todolist.app-main-60:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/drawable_ic_baseline_date_range_24.xml.flat",
+        "source": "com.example.todolist.app-main-60:/drawable/ic_baseline_date_range_24.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.todolist.app-main-60:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/drawable_side_nav_bar.xml.flat",
+        "source": "com.example.todolist.app-main-60:/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/drawable_ic_baseline_category_24.xml.flat",
+        "source": "com.example.todolist.app-main-60:/drawable/ic_baseline_category_24.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.todolist.app-main-60:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.todolist.app-main-60:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.todolist.app-main-60:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.todolist.app-main-60:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/layout_fragment_base.xml.flat",
+        "source": "com.example.todolist.app-main-60:/layout/fragment_base.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/drawable_switch_track_selector.xml.flat",
+        "source": "com.example.todolist.app-main-60:/drawable/switch_track_selector.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.todolist.app-main-60:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.todolist.app-main-60:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/layout_app_bar_main.xml.flat",
+        "source": "com.example.todolist.app-main-60:/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/layout_fragment_completed_tasks.xml.flat",
+        "source": "com.example.todolist.app-main-60:/layout/fragment_completed_tasks.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/drawable-night_ic_baseline_priority_high_24.xml.flat",
+        "source": "com.example.todolist.app-main-60:/drawable-night/ic_baseline_priority_high_24.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.todolist.app-main-60:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.todolist.app-main-60:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/drawable-night_ic_baseline_date_range_24.xml.flat",
+        "source": "com.example.todolist.app-main-60:/drawable-night/ic_baseline_date_range_24.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.todolist.app-main-60:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/raw_categoryanim.json.flat",
+        "source": "com.example.todolist.app-main-60:/raw/categoryanim.json"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.todolist.app-main-60:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/layout_content_main.xml.flat",
+        "source": "com.example.todolist.app-main-60:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/layout_fragment_settings.xml.flat",
+        "source": "com.example.todolist.app-main-60:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/raw_taskbanim.json.flat",
+        "source": "com.example.todolist.app-main-60:/raw/taskbanim.json"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/anim_slide_up.xml.flat",
+        "source": "com.example.todolist.app-main-60:/anim/slide_up.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/menu_activity_main_drawer.xml.flat",
+        "source": "com.example.todolist.app-main-60:/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.todolist.app-main-60:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.todolist.app-main-60:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/drawable_switch_thumb_selector.xml.flat",
+        "source": "com.example.todolist.app-main-60:/drawable/switch_thumb_selector.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.todolist.app-main-60:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/drawable-night_ic_baseline_add_24.xml.flat",
+        "source": "com.example.todolist.app-main-60:/drawable-night/ic_baseline_add_24.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/raw_taskaanim.json.flat",
+        "source": "com.example.todolist.app-main-60:/raw/taskaanim.json"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/xml_backup_rules.xml.flat",
+        "source": "com.example.todolist.app-main-60:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/layout_item_categories.xml.flat",
+        "source": "com.example.todolist.app-main-60:/layout/item_categories.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/layout_item_task.xml.flat",
+        "source": "com.example.todolist.app-main-60:/layout/item_task.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-58:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.todolist.app-main-60:/mipmap-mdpi/ic_launcher_round.png"
+    }
+]

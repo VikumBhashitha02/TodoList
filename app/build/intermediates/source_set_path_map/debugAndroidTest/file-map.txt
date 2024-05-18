@@ -1,0 +1,7 @@
+com.example.todolist.test.app-androidTest-0 D:\ToDoList\app\build\generated\res\resValues\androidTest\debug
+com.example.todolist.test.app-androidTest-1 D:\ToDoList\app\build\generated\res\rs\androidTest\debug
+com.example.todolist.test.app-mergeDebugAndroidTestResources-2 D:\ToDoList\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.todolist.test.app-mergeDebugAndroidTestResources-3 D:\ToDoList\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.todolist.test.app-merged_res-4 D:\ToDoList\app\build\intermediates\merged_res\debugAndroidTest
+com.example.todolist.test.app-androidTest-5 D:\ToDoList\app\src\androidTest\res
+com.example.todolist.test.app-androidTestDebug-6 D:\ToDoList\app\src\androidTestDebug\res

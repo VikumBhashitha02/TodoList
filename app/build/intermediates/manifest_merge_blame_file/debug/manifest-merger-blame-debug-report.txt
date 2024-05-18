@@ -1,0 +1,154 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.todolist"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->D:\ToDoList\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\ToDoList\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+11-->D:\ToDoList\app\src\main\AndroidManifest.xml:6:5-79
+11-->D:\ToDoList\app\src\main\AndroidManifest.xml:6:22-76
+12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+12-->D:\ToDoList\app\src\main\AndroidManifest.xml:7:5-80
+12-->D:\ToDoList\app\src\main\AndroidManifest.xml:7:22-78
+13
+14    <application
+14-->D:\ToDoList\app\src\main\AndroidManifest.xml:9:5-40:19
+15        android:name="com.example.todolist.presentation.di.ToDoListApplication"
+15-->D:\ToDoList\app\src\main\AndroidManifest.xml:10:9-60
+16        android:allowBackup="true"
+16-->D:\ToDoList\app\src\main\AndroidManifest.xml:11:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.8.0] C:\Users\HP\.gradle\caches\transforms-3\b82ef25ebff971d3c86cba17e429c2e8\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+18        android:dataExtractionRules="@xml/data_extraction_rules"
+18-->D:\ToDoList\app\src\main\AndroidManifest.xml:12:9-65
+19        android:debuggable="true"
+20        android:extractNativeLibs="false"
+21        android:fullBackupContent="@xml/backup_rules"
+21-->D:\ToDoList\app\src\main\AndroidManifest.xml:13:9-54
+22        android:icon="@mipmap/ic_launcher"
+22-->D:\ToDoList\app\src\main\AndroidManifest.xml:14:9-43
+23        android:label="@string/app_name"
+23-->D:\ToDoList\app\src\main\AndroidManifest.xml:15:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->D:\ToDoList\app\src\main\AndroidManifest.xml:16:9-54
+25        android:supportsRtl="true"
+25-->D:\ToDoList\app\src\main\AndroidManifest.xml:17:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.ToDoList" >
+27-->D:\ToDoList\app\src\main\AndroidManifest.xml:18:9-46
+28        <activity
+28-->D:\ToDoList\app\src\main\AndroidManifest.xml:20:9-27:20
+29            android:name="com.example.todolist.presentation.MainActivity"
+29-->D:\ToDoList\app\src\main\AndroidManifest.xml:21:13-54
+30            android:exported="true" >
+30-->D:\ToDoList\app\src\main\AndroidManifest.xml:22:13-36
+31            <intent-filter>
+31-->D:\ToDoList\app\src\main\AndroidManifest.xml:23:13-26:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->D:\ToDoList\app\src\main\AndroidManifest.xml:24:17-69
+32-->D:\ToDoList\app\src\main\AndroidManifest.xml:24:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->D:\ToDoList\app\src\main\AndroidManifest.xml:25:17-77
+34-->D:\ToDoList\app\src\main\AndroidManifest.xml:25:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <receiver android:name="com.example.todolist.presentation.br.AlarmReceiver" />
+38-->D:\ToDoList\app\src\main\AndroidManifest.xml:29:9-66
+38-->D:\ToDoList\app\src\main\AndroidManifest.xml:29:19-64
+39        <receiver android:name="com.example.todolist.presentation.br.OnCompletedBroadcastReceiver" />
+39-->D:\ToDoList\app\src\main\AndroidManifest.xml:30:9-81
+39-->D:\ToDoList\app\src\main\AndroidManifest.xml:30:19-79
+40        <receiver
+40-->D:\ToDoList\app\src\main\AndroidManifest.xml:31:9-39:20
+41            android:name="com.example.todolist.presentation.br.RebootBroadcastReceiver"
+41-->D:\ToDoList\app\src\main\AndroidManifest.xml:31:19-74
+42            android:enabled="true"
+42-->D:\ToDoList\app\src\main\AndroidManifest.xml:32:13-35
+43            android:exported="true" >
+43-->D:\ToDoList\app\src\main\AndroidManifest.xml:33:13-36
+44            <intent-filter>
+44-->D:\ToDoList\app\src\main\AndroidManifest.xml:34:13-38:29
+45                <action android:name="android.intent.action.BOOT_COMPLETED" />
+45-->D:\ToDoList\app\src\main\AndroidManifest.xml:35:17-79
+45-->D:\ToDoList\app\src\main\AndroidManifest.xml:35:25-76
+46                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+46-->D:\ToDoList\app\src\main\AndroidManifest.xml:36:17-82
+46-->D:\ToDoList\app\src\main\AndroidManifest.xml:36:25-79
+47                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+47-->D:\ToDoList\app\src\main\AndroidManifest.xml:37:17-81
+47-->D:\ToDoList\app\src\main\AndroidManifest.xml:37:25-79
+48            </intent-filter>
+49        </receiver>
+50        <!-- The activities will be merged into the manifest of the hosting app. -->
+51        <activity
+51-->[com.google.android.play:core-common:2.0.0] C:\Users\HP\.gradle\caches\transforms-3\83fe8e9e4a2227204bdea2ffb2544a0a\transformed\jetified-core-common-2.0.0\AndroidManifest.xml:14:9-18:65
+52            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+52-->[com.google.android.play:core-common:2.0.0] C:\Users\HP\.gradle\caches\transforms-3\83fe8e9e4a2227204bdea2ffb2544a0a\transformed\jetified-core-common-2.0.0\AndroidManifest.xml:15:13-93
+53            android:exported="false"
+53-->[com.google.android.play:core-common:2.0.0] C:\Users\HP\.gradle\caches\transforms-3\83fe8e9e4a2227204bdea2ffb2544a0a\transformed\jetified-core-common-2.0.0\AndroidManifest.xml:16:13-37
+54            android:stateNotNeeded="true"
+54-->[com.google.android.play:core-common:2.0.0] C:\Users\HP\.gradle\caches\transforms-3\83fe8e9e4a2227204bdea2ffb2544a0a\transformed\jetified-core-common-2.0.0\AndroidManifest.xml:17:13-42
+55            android:theme="@style/Theme.PlayCore.Transparent" />
+55-->[com.google.android.play:core-common:2.0.0] C:\Users\HP\.gradle\caches\transforms-3\83fe8e9e4a2227204bdea2ffb2544a0a\transformed\jetified-core-common-2.0.0\AndroidManifest.xml:18:13-62
+56
+57        <meta-data
+57-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\HP\.gradle\caches\transforms-3\65e8157e960792e3d73b5dd6c79e9ef5\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+58            android:name="com.google.android.gms.version"
+58-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\HP\.gradle\caches\transforms-3\65e8157e960792e3d73b5dd6c79e9ef5\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+59            android:value="@integer/google_play_services_version" />
+59-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\HP\.gradle\caches\transforms-3\65e8157e960792e3d73b5dd6c79e9ef5\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+60
+61        <uses-library
+61-->[androidx.window:window:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\f677d8273f8faff93412256108e555c3\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+62            android:name="androidx.window.extensions"
+62-->[androidx.window:window:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\f677d8273f8faff93412256108e555c3\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+63            android:required="false" />
+63-->[androidx.window:window:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\f677d8273f8faff93412256108e555c3\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+64        <uses-library
+64-->[androidx.window:window:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\f677d8273f8faff93412256108e555c3\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+65            android:name="androidx.window.sidecar"
+65-->[androidx.window:window:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\f677d8273f8faff93412256108e555c3\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+66            android:required="false" />
+66-->[androidx.window:window:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\f677d8273f8faff93412256108e555c3\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+67
+68        <service
+68-->[androidx.room:room-runtime:2.4.3] C:\Users\HP\.gradle\caches\transforms-3\4617cdeff031556126bc4a207ec151ce\transformed\room-runtime-2.4.3\AndroidManifest.xml:25:9-28:40
+69            android:name="androidx.room.MultiInstanceInvalidationService"
+69-->[androidx.room:room-runtime:2.4.3] C:\Users\HP\.gradle\caches\transforms-3\4617cdeff031556126bc4a207ec151ce\transformed\room-runtime-2.4.3\AndroidManifest.xml:26:13-74
+70            android:directBootAware="true"
+70-->[androidx.room:room-runtime:2.4.3] C:\Users\HP\.gradle\caches\transforms-3\4617cdeff031556126bc4a207ec151ce\transformed\room-runtime-2.4.3\AndroidManifest.xml:27:13-43
+71            android:exported="false" />
+71-->[androidx.room:room-runtime:2.4.3] C:\Users\HP\.gradle\caches\transforms-3\4617cdeff031556126bc4a207ec151ce\transformed\room-runtime-2.4.3\AndroidManifest.xml:28:13-37
+72
+73        <provider
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\75542110b7ce9614e204d32e1f9397b0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+74            android:name="androidx.startup.InitializationProvider"
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\75542110b7ce9614e204d32e1f9397b0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+75            android:authorities="com.example.todolist.androidx-startup"
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\75542110b7ce9614e204d32e1f9397b0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+76            android:exported="false" >
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\75542110b7ce9614e204d32e1f9397b0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+77            <meta-data
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\75542110b7ce9614e204d32e1f9397b0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+78                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\75542110b7ce9614e204d32e1f9397b0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+79                android:value="androidx.startup" />
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\75542110b7ce9614e204d32e1f9397b0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+80            <meta-data
+80-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HP\.gradle\caches\transforms-3\78ecf208c5b5d5f202cd325f6a152b5f\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+81                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+81-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HP\.gradle\caches\transforms-3\78ecf208c5b5d5f202cd325f6a152b5f\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+82                android:value="androidx.startup" />
+82-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HP\.gradle\caches\transforms-3\78ecf208c5b5d5f202cd325f6a152b5f\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+83        </provider>
+84    </application>
+85
+86</manifest>
